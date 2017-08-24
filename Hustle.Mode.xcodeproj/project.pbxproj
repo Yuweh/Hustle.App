@@ -12,6 +12,7 @@
 		902D295C1F4DD4DB00AD7654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902D295A1F4DD4DB00AD7654 /* Main.storyboard */; };
 		902D295E1F4DD4DB00AD7654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 902D295D1F4DD4DB00AD7654 /* Assets.xcassets */; };
 		902D29611F4DD4DB00AD7654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902D295F1F4DD4DB00AD7654 /* LaunchScreen.storyboard */; };
+		90E1092F1F4F1BBC006DAF43 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 90E1092E1F4F1BBC006DAF43 /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		902D295D1F4DD4DB00AD7654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		902D29601F4DD4DB00AD7654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		902D29621F4DD4DB00AD7654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E1092E1F4F1BBC006DAF43 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		902D29551F4DD4DB00AD7654 /* Hustle.Mode */ = {
 			isa = PBXGroup;
 			children = (
+				90E1092E1F4F1BBC006DAF43 /* hustle-on.wav */,
 				902D29561F4DD4DB00AD7654 /* AppDelegate.swift */,
 				902D29581F4DD4DB00AD7654 /* ViewController.swift */,
 				902D295A1F4DD4DB00AD7654 /* Main.storyboard */,
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90E1092F1F4F1BBC006DAF43 /* hustle-on.wav in Resources */,
 				902D29611F4DD4DB00AD7654 /* LaunchScreen.storyboard in Resources */,
 				902D295E1F4DD4DB00AD7654 /* Assets.xcassets in Resources */,
 				902D295C1F4DD4DB00AD7654 /* Main.storyboard in Resources */,
@@ -297,6 +301,7 @@
 				902D29671F4DD4DB00AD7654 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
